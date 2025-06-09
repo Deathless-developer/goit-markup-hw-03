@@ -3,6 +3,9 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -11,34 +14,26 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-
+  margin-right: 76px;
+}
+.nav {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  padding: 0px;
-
-  position: absolute;
-  width: 115px;
-  height: 24px;
-  left: 156px;
-  top: 24px;
+}
+.menu {
+  display: flex;
+  gap: 40px;
 }
 .span {
   color: #2e2f42;
 }
 .list {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 40px;
-
-  position: absolute;
-  width: 261px;
-  height: 24px;
-  left: 347px;
-  top: 24px;
-  margin: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
 }
 .list:hover,
 .list:focus {
@@ -47,28 +42,28 @@ body {
 .address {
   font-style: normal;
 }
+.contacts {
+  display: flex;
+  gap: 40px;
+}
 .mail {
-  position: absolute;
-  width: 153px;
-  height: 24px;
-  left: 940px;
-  top: 24px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 
   color: #434455;
 }
+
 .mail:hover,
 .mail:focus {
   color: #404bbf;
 }
 .main {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .main_title {
   font-size: 56px;
@@ -77,8 +72,13 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
 }
 .button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   background-color: #4d5ae5;
   font-family: "Roboto" sans-serif;
   font-size: 16px;
@@ -87,6 +87,7 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  border-radius: 4px;
 }
 .button:hover,
 .button:focus {
@@ -137,6 +138,11 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+.img {
+  display: block;
+}
 .container {
-  max-width: 1440px;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
