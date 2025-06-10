@@ -76,6 +76,7 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  margin: 0 auto;
 }
 .button {
   display: block;
@@ -91,6 +92,7 @@ body {
   color: #ffffff;
   cursor: pointer;
   border-radius: 4px;
+  margin: 0 auto;
 }
 .button:hover,
 .button:focus {
@@ -161,7 +163,8 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .information {
@@ -184,7 +187,7 @@ img {
   gap: 24px;
 }
 .spisok {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .name {
   padding: 32px 0;
