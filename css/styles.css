@@ -161,7 +161,10 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
-.Information {
+.header-container {
+  display: flex;
+}
+.information {
   padding: 120px 0;
 }
 .visually-hidden {
@@ -181,7 +184,7 @@ img {
   gap: 24px;
 }
 .spisok {
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .name {
   padding: 32px 0;
@@ -194,7 +197,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.Portfolio {
+.portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
 }
