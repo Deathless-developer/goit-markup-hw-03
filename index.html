@@ -42,7 +42,7 @@
     </header>
 
     <main>
-      <section class="">
+      <section class="main">
         <div class="container">
           <h1 class="main_title">Effective Solutions for Your Business</h1>
           <button class="button" type="button">Order Service</button>
@@ -52,8 +52,8 @@
       <section class="Information">
         <div class="container">
           <h2 class="visually-hidden">Information</h2>
-          <ul class="firs-list">
-            <li class="class">
+          <ul class="first-list">
+            <li class="spisok">
               <h3 class="title">Strategy</h3>
               <p class="text">
                 Our goal is to identify the business problem to walk away with
@@ -84,10 +84,11 @@
           </ul>
         </div>
       </section>
+
       <section class="center">
         <div class="container">
           <h2 class="center_title">Our Team</h2>
-          <ul class="firs-list">
+          <ul class="first-list">
             <li class="pic">
               <img
                 src="./images/photo.jpg"
@@ -95,8 +96,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="title">Mark Guerrero</h3>
-              <p class="text">Product Designer</p>
+              <div class="name">
+                <h3 class="title-pic">Mark Guerrero</h3>
+                <p class="text-name">Product Designer</p>
+              </div>
             </li>
             <li class="pic">
               <img
@@ -105,8 +108,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="title">Tom Ford</h3>
-              <p class="text">Frontend Developer</p>
+              <div class="name">
+                <h3 class="title-pic">Tom Ford</h3>
+                <p class="text-name">Frontend Developer</p>
+              </div>
             </li>
             <li class="pic">
               <img
@@ -115,8 +120,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="title">Camila Garcia</h3>
-              <p class="text">Marketing</p>
+              <div class="name">
+                <h3 class="title-pic">Camila Garcia</h3>
+                <p class="text-name">Marketing</p>
+              </div>
             </li>
             <li class="pic">
               <img
@@ -125,87 +132,106 @@
                 width="264"
                 height="260"
               />
-              <h3 class="title">Daniel Wilson</h3>
-              <p class="text">UI Designer</p>
+              <div class="name">
+                <h3 class="title-pic">Daniel Wilson</h3>
+                <p class="text-name">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
-      <section>
-        <h2 class="center_title">Our Portfolio</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/image.jpg"
-              alt="banking app"
-              width="360"
-              height="300"
-            />
-            <h3 class="title">Banking App</h3>
-            <p class="text">App</p>
-          </li>
-          <li>
-            <img
-              src="./images/image_1.jpg"
-              alt="Cashless payment"
-              width="360"
-              height="300"
-            />
-            <h3 class="title">Cashless Payment</h3>
-            <p class="text">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/image_2.jpg"
-              alt="Meditation App"
-              width="360"
-              height="300"
-            />
-            <h3 class="title">Meditation App</h3>
-            <p class="text">App</p>
-          </li>
-          <li>
-            <img
-              src="./images/image_3.jpg"
-              alt="Taxi Service"
-              width="360"
-              height="300"
-            />
-            <h3 class="title">Taxi Service</h3>
-            <p class="text">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/image_4.jpg"
-              alt="Screen Illustrations"
-              width="360"
-              height="300"
-            />
-            <h3 class="title">Screen Illustrations</h3>
-            <p class="text">Design</p>
-          </li>
-          <li>
-            <img
-              src="./images/image_5.jpg"
-              alt="Online Courses"
-              width="360"
-              height="300"
-            />
-            <h3 class="title">Online Courses</h3>
-            <p class="text">Marketing</p>
-          </li>
-        </ul>
+
+      <section class="Portfolio">
+        <div class="container">
+          <h2 class="center_title">Our Portfolio</h2>
+          <ul class="images">
+            <li class="pic">
+              <img
+                src="./images/image.jpg"
+                alt="banking app"
+                width="360"
+                height="300"
+              />
+              <div class="extra">
+                <h3 class="title">Banking App</h3>
+                <p class="text">App</p>
+              </div>
+            </li>
+            <li>
+              <img
+                src="./images/image_1.jpg"
+                alt="Cashless payment"
+                width="360"
+                height="300"
+              />
+              <div class="extra">
+                <h3 class="title">Cashless Payment</h3>
+                <p class="text">Marketing</p>
+              </div>
+            </li>
+            <li>
+              <img
+                src="./images/image_2.jpg"
+                alt="Meditation App"
+                width="360"
+                height="300"
+              />
+              <div class="extra">
+                <h3 class="title">Meditation App</h3>
+                <p class="text">App</p>
+              </div>
+            </li>
+            <li>
+              <img
+                src="./images/image_3.jpg"
+                alt="Taxi Service"
+                width="360"
+                height="300"
+              />
+              <div class="extra">
+                <h3 class="title">Taxi Service</h3>
+                <p class="text">Marketing</p>
+              </div>
+            </li>
+            <li>
+              <img
+                src="./images/image_4.jpg"
+                alt="Screen Illustrations"
+                width="360"
+                height="300"
+              />
+              <div class="extra">
+                <h3 class="title">Screen Illustrations</h3>
+                <p class="text">Design</p>
+              </div>
+            </li>
+            <li>
+              <img
+                src="./images/image_5.jpg"
+                alt="Online Courses"
+                width="360"
+                height="300"
+              />
+              <div class="extra">
+                <h3 class="title">Online Courses</h3>
+                <p class="text">Marketing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <a class="logo" href="./index.html"
-        >Web <span class="footer-span">Studio</span></a
-      >
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <a class="logo-footer" href="./index.html"
+          >Web <span class="footer-span">Studio</span></a
+        >
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
