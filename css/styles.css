@@ -186,8 +186,8 @@ img {
   display: flex;
   gap: 24px;
 }
-.spisok {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+.first-list li {
+  flex-basis: calc((100% - 72px) / 4);
 }
 .name {
   padding: 32px 0;
