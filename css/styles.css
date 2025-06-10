@@ -185,8 +185,10 @@ img {
 .first-list {
   display: flex;
   gap: 24px;
+  margin: 0 auto;
+  padding-left: 0;
 }
-.first-list li {
+.spisok {
   flex-basis: calc((100% - 72px) / 4);
 }
 .name {
