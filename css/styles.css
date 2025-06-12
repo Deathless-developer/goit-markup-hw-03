@@ -26,6 +26,7 @@ body {
 .menu {
   display: flex;
   gap: 40px;
+  list-style-type: none;
 }
 .span {
   color: #2e2f42;
@@ -48,6 +49,7 @@ body {
 .contacts {
   display: flex;
   gap: 40px;
+  list-style-type: none;
 }
 .mail {
   font-family: "Roboto";
@@ -187,6 +189,7 @@ img {
   gap: 24px;
   margin: 0 auto;
   padding-left: 0;
+  list-style-type: none;
 }
 .spisok {
   flex-basis: calc((100% - 72px) / 4);
@@ -213,6 +216,7 @@ img {
   row-gap: 48px;
   margin: 0;
   padding-left: 0;
+  list-style-type: none;
 }
 .li-pic {
   width: calc((100% - 72px) / 3);
